@@ -55,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
                 equationOne.setText(equationValue[0] + " + " + equationValue[1] + " = ");
                 equationTwo.setText(equationValue[2] + " + " + equationValue[3] + " = ");
                 equationThree.setText(equationValue[4] + " + " + equationValue[5] + " = ");
+
+                solvingOne.setBackgroundColor(Color.parseColor("#E7E4EC"));
+                solvingTwo.setBackgroundColor(Color.parseColor("#E7E4EC"));
+                solvingThree.setBackgroundColor(Color.parseColor("#E7E4EC"));
             }
         });
 
